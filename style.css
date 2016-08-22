@@ -5,7 +5,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 @font-face{
     font-family: 'Open Sans';
     src: url('fonts/open_sanslight-webfont.eot');
@@ -28,7 +27,6 @@ body {
 .width-wrap{
   max-width: 960px;
   margin: 0 auto;
-  box-sizing:border-box;
 }
 .context-center{
   text-align: center;
@@ -56,9 +54,6 @@ body {
 .menu{
     list-style-type: none;
     float:right;
-/*    display: inline-block;*/
-   /* width: auto;
-    bottom: 35px;*/
 }
 .item--header{
   display: inline-block;
@@ -256,17 +251,21 @@ color: #edbfff;
     height: 100%;
 }
 .menu--footer{
-  float:left;
-  margin-top: 70px;
+  text-align: center;
+  padding-top: 70px;
 }
 .footer__info {
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 12px;
     color: #fff;
-    margin-top: 120px;
     text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
     float:right;
     margin-right: 40px;
+}
+.item--header:hover{
+    padding-bottom: 3px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+    border-bottom: 2px solid #edbfff;
 }
 
 /*# sourceMappingURL=style.css.map 
